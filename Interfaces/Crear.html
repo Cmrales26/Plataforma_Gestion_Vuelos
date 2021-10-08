@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/Crear_style.css">
+    <link rel="icon" type="image/png" href="../img/av.png">
+    <title>Crear Cuenta</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav>
+            <div class="Menu">
+                    <ul>
+                        <li class="logo"><a href="../Index.html"><img src="../img/av.png"></a></li>
+                        <li class="Inicio"><a href="../Index.html">Inicio</a></li>
+                        <li class="Ayuda"><a href="#">❔ Ayuda</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="Formulario_Crear">
+        <h1>CREAR CUENTA</h1>
+        <br>
+        <form action="">
+            <div class="Nombre_Apellido">
+                <Label>Nombre</Label>
+                <input type="text" name="Nombre" id="Nombre" class="Nombre" placeholder="Nombre" required>
+                <label>Apellidos</label>
+                <input type="text" name="Apellidos" id="Apellidos" class="Apellido" placeholder="Apellidos" required>
+            </div>
+            <div class="Email_Usuario">
+                <br>
+                <Label>Corre Electronico</Label>
+                <input type="email" name="Mail" id="Mail" class="Mail" placeholder="Correo Electronico" required>
+                <br><br>
+                <Label> Usuario</Label>
+                <input type="text" name="Usuario" id="Usuario" class="Usuario" placeholder="Usuario" required>
+            </div>
+            <div class="personal">
+                <br>
+                <Label>Documento Identidad</Label>
+                <select name="Documento" id="Documento" required>
+                    <option value="CC">Cedula</option>
+                    <option value="TI">Targeta Identidad</option>
+                    <option value="CE">Cedula Extrangera</option>
+                    <option value="PSS">Pasaporte</option>
+                </select>
+                <input type="text" name="Documento" id="Documento" class="Documento" placeholder="Numero de Documento" required>
+            </div>
+            <div class="Naciemiento_Genero">
+                <br>
+                <label for="">Fecha de Naciemiento</label>
+                <input type="date" name="Naciemiento" id="Naciemiento" >
+                <Label>Genero</Label>
+                <select name="Genero" id="Genero" required>
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                    <option value="PN">Prefiero No decirlo</option>
+                </select>
+            </div>
+            <div class="Contraseña">
+                <br>
+                <label for="">Contrseña</label>
+                    <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" required>
+                <label for="">Validar</label>
+                    <input type="password" name="Validar" id="Validar" class="Validar" placeholder="Validar" required>
+            </div>
+            <br><br>
+            <div class="btn_crear">
+                <input type="button" value="CREAR CUENTA">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    background-color: #EEEE;
+}
+header{
+    background-color: #FFF;
+    height: 17vh;
+}
+.Menu ul{
+    display: inline-flex;
+    margin: 50px;
+    text-decoration: none;
+}
+.Ayuda{
+    margin-left: 130vh !important;
+}
+.Menu ul li{
+    list-style: none;
+    margin: 0px 20px;
+    color: black;
+    cursor: pointer;
+}
+.Inicio a{
+    color: blue !important;
+}
+.Menu a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    margin-top: -35px;
+    width: 97px;
+    height: 97px;
+}
+.Formulario{
+    background-color: #FFF;
+    border: 1px solid blue;
+    box-shadow: 5px 5px 5px blue;
+    border-radius: 5px;
+    padding: 17px;
+    width: 300px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type=text],[type=password] {
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 60%;
+    height: 2px;
+    padding: 12px 20px;
+    margin: 8px;
+}
+h1{
+    color: blue;
+}
+.Login{
+    text-align: center;
+    margin: 30px;
+}
+input[type=button], input[type=submit]{
+    background-color: blue;
+    border: none;
+    color: white;
+    /* padding: 1px; */
+    padding: 10px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.Grupo_Formulario{
+    margin: 10px;
+}
+.Crear{
+    color: blue;
+    text-align: center;
+}

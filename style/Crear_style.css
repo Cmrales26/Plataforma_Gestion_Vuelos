@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    background-color: #EEEE;
+}
+header{
+    background-color: #FFF;
+    height: 15vh;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.Menu ul{
+    display: inline-flex;
+    margin: 50px;
+    text-decoration: none;
+}
+.Ayuda{
+    margin-left: 130vh !important;
+}
+.Menu ul li{
+    list-style: none;
+    margin: 0px 20px;
+    color: black;
+    cursor: pointer;
+}
+.Inicio a{
+    color: blue !important;
+}
+.Menu a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    margin-top: -40px;
+    width: 97px;
+    height: 97px;
+}
+.Formulario_Crear{
+    background-color: #FFF;
+    border: 1px solid blue;
+    box-shadow: 5px 5px 5px blue;
+    border-radius: 5px;
+    padding: 17px;
+    width: 50%;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Nombre, .Apellido{
+    width: 30% !important;
+}
+.Usuario{
+    width: 80% !important;
+}
+.Mail{
+    width: 70% !important;
+}
+.Documento{
+    width: 38% !important;
+}
+.Validar{
+    width: 33% !important;
+}
+input[type=text],[type=password],[type=email],[type=date] {
+    border: 2px solid blue;
+    width: 27%;
+    border-radius: 5px;
+    height: 2px;
+    padding: 12px 20px;
+    margin: 8px;
+}
+input[type=button], input[type=submit]{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+select{
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+.btn_crear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    background-color:#EEEE;
+}
+h1{
+    text-align: center;
+}
+header{
+    height: 17vh;
+    background-color: white;
+}
+.Menu ul{
+    display: inline-flex;
+    margin: 50px;
+    text-decoration: none;
+}
+.Menu ul li{
+    list-style: none;
+    margin: 0px 20px;
+    color: black;
+    cursor: pointer;
+}
+.Inicio a{
+    color: blue !important;
+}
+.Menu a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    margin-top: -35px;
+    width: 97px;
+    height: 97px;
+}
+.Buscar{
+    /* padding: 0px 100px 0px 0px; */
+    width: 30%;
+    /* border: 1px solid red; */
+    top:6%;
+    right: 20%;
+    position: absolute;
+}
+input[type=text],[type=number] {
+    width: 60%;
+    height: 2px;
+    padding: 12px 20px;
+    margin: 8px;
+}
+input[type=button], input[type=submit]{
+    background-color: blue;
+    border: none;
+    color: white;
+    /* padding: 1px; */
+    padding: 10px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.Registrar_Iniciar li a{
+    padding: 10px 25px;
+    top:6%;
+    right: 80px;
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    background: blue;
+    border-radius: 20px;
+    color: white;
+}
+.Promociones{
+    border: 3px solid black;
+    margin-top: 20px;
+    height: 50vh;
+    /* border: 1px solid red; */
+}
+.Vuelos{
+    border: 3px solid black;
+    margin-top: 20px;
+    height: 50vh;
+    /* border: 1px solid red; */
+}
+.Servicios{
+    border: 3px solid black;
+    margin-top: 20px;
+    height: 50vh;
+    /* border: 1px solid red; */
+}
+footer{
+    margin-top: 20px;
+    border: 1px solid blue;
+}
